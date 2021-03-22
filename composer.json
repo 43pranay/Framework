@@ -1,0 +1,6 @@
+{
+  "autoload":{
+    "files": ["app/helper/helper.php","systems/helper/url_helper.php"],
+    "classmap": ["systems","systems/database","systems/interface"]
+  }
+}
