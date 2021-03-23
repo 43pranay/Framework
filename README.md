@@ -37,9 +37,7 @@ Every files are categorized into different directory, following are the director
         storage/public/path otherwise storage path will storage/public/files
 
 #404 page not found
-![alt text](https://github.com/[pranaytabhane143@gmail.com]/[Framework]/blob/[main]/systems/error-page/images/404.png?raw=true)
+![alt text](https://ibb.co/9WNhgp6)
 
 #Welcome Page
-![alt text](https://github.com/[pranaytabhane143@gmail.com]/[Framework]/blob/[main]/systems/error-page/images/welcomeṭ.png?raw=true)
-
-![alt text](https://cdn.britannica.com/51/190751-050-147B93F7/soccer-ball-goal.jpg)
+![alt text](https://ibb.co/KD3rWV8)
