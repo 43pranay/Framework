@@ -16,8 +16,20 @@ class View
   public static function view($file_name,$data='')
   {
     $viewfile_path = VIEW_PATH.'/'.$file_name.'.php';
-    foreach ($data as $key => $value) {
-      $$key = $value;
+    if ($data) {
+      foreach ($data as $key => $value) {
+        $$key = $value;
+      }
+    }
+    include_once $viewfile_path;
+  }
+  public static function view_with_header($file_name,$data='')
+  {
+    $viewfile_path = VIEW_PATH.'/'.$file_name.'.php';
+    if ($data) {
+      foreach ($data as $key => $value) {
+        $$key = $value;
+      }
     }
     self::header();
     include_once $viewfile_path;

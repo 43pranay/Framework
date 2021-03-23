@@ -12,7 +12,7 @@ class Database extends System implements DBInerface
   private static $_instance = null;
   protected $result;
   public $get;
-  public static function getInstance($array='')
+  public static function db($array='')
   {
     if (self::$_instance === null) {
       self::$_instance = new self($array);
@@ -44,4 +44,4 @@ class Database extends System implements DBInerface
     // code...
   }
 }
-Database::getInstance($database_array);
+Database::db($database_array);

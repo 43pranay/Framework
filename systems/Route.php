@@ -34,9 +34,9 @@ class Route
     if (class_exists(self::$controller)) {
       $controller = new self::$controller;
       $function_name = self::$function;
-      // dd($function_name);
       echo $controller->$function_name();
-      // dd('test');
+    }else {
+      include 'error-page/index.php';
     }
   }
 }
