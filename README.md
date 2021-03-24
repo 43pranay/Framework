@@ -2,7 +2,7 @@
 
 This Framework based on Object Oriented Concept
 Every files are categorized into different directory, following are the directory structure
-<span style="background: #0058ff;border: 1px solid #0058ff;margin-left: 10px;padding: 0 5px;color: white;">important</span>
+<svg style="background: #0058ff;border: 1px solid #0058ff;margin-left: 10px;padding: 0 5px;color: white;">important</svg>
 <h3><center>Directory Structure 👇</center></h3>
       <strong>/app</strong>
       <ul>
