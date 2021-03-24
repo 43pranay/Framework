@@ -1,9 +1,9 @@
-# Framewore
+# Framework
 
 This Framework based on Object Oriented Concept
 Every files are categorized into different directory, following are the directory structure
 
-<center><h5>Directory Structure 👇</h5></center>
+### <center>Directory Structure 👇</center>
       /app
       <ul>
         <li><strong>config: </strong><i>can set base url in config.php also there is helper file configuration</i></li>
@@ -11,11 +11,34 @@ Every files are categorized into different directory, following are the director
         <li><strong>database: </strong><i>database configuration are available in this directory</i></li>
         <li><strong>helper: </strong><i>helper file are available in this directory</i></li>
         <li><strong>models: </strong><i>all the database related task are performed here, make model available in controller and use</i></li>
-        <li><strong>route: </strong><i>Route is the main key for the project without routing file can't be accessible</i></li>
+        <li><strong>route: </strong><i>Route is the main key for the project without routing file can't be accessible</i></li><span style="background: #0058ff;border: 1px solid #0058ff;margin-left: 10px;padding: 0 5px;color: white;">important</span>
         <li><strong>storage: </strong><i>in this directory can store all the files</i></li>
         <li><strong>views: </strong><i>all view file are available in this directory controller will return view from this directory</i></li>
       </ul>
 
+<div>
+  <span>
+    <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>OOP CONCEPT</b></span>
+  </span>
+  <span>
+    <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>EASY TO USE</b></span>
+  </span>
+  <span>
+    <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>FRAMEWORK</b></span>
+  </span>
+  <span>
+    <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>OPEN SOURCE</b></span>
+  </span>
+  <span>
+    <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>ROUTE BASED</b></span>
+  </span>
+  <span>
+  <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>PHP</b></span>
+  </span>
+  <span>
+    <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>MIT LICENSED</b></span>
+  </span>
+</div>      
 ### How to access database
 
   To access database in the controller use the following file in controller at the top
@@ -36,9 +59,9 @@ Every files are categorized into different directory, following are the director
 
   * use System\Files\Storage;
 
-  and then - *** Storage::store($file,$path)
+  and then - <i> Storage::store($file,$path)</i>
 
-        $file = provide file $FILES['name_of_the_file'] (required)
+        $file = provide file $_FILES['name_of_the_file'] (required)
         $path = path where you want to store the file (optional)
 
         Note: All the files are stored in the public folder inside storage directory,
