@@ -3,7 +3,7 @@
 This Framework based on Object Oriented Concept
 Every files are categorized into different directory, following are the directory structure
 
-### <center>Directory Structure 👇</center>
+<h3><center>Directory Structure 👇</center></h3>
       /app
       <ul>
         <li><strong>config: </strong><i>can set base url in config.php also there is helper file configuration</i></li>
