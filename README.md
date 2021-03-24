@@ -1,4 +1,5 @@
 # Framework
+<link rel="stylesheet" type="text/css" media="all" href="markdown_styles.css" />
 
 This Framework based on Object Oriented Concept
 Every files are categorized into different directory, following are the directory structure
