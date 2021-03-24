@@ -2,29 +2,19 @@
 
 This Framework based on Object Oriented Concept
 Every files are categorized into different directory, following are the directory structure
-<p align="center">
-  
-  <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
-  <a href="#">Link 2</a> |
-  <a href="#">Link 3</a>
-  <br><br>
-</p>
-<ul>
-  <li>1 <strong>test</strong></li>
-  <li>1 <strong>test</strong></li>
-  <li>1 <strong>test</strong></li>
-  </ul>
-      /app
-        *** config     - can set base url in config.php also there is helper file configuration
-        *** controller - All the view are return from controllers folder, all the controller available in this directory
-        *** database   - database configuration are available in this directory
-        *** helper     - helper file are available in this directory
-        *** models     - all the database related task are performed here, make model available in controller and use
-        *** route      - Route is the main key for the project without routing file can't be accessible
-        *** storage    - in this directory can store all the files
-        *** views      - all view file are available in this directory controller will return view from this directory
 
+<center><h5>Directory Structure 👇</h5></center>
+      /app
+      <ul>
+        <li><strong>config: </strong><i>can set base url in config.php also there is helper file configuration</i></li>
+        <li><strong>controller: </strong><i>All the view are return from controllers folder, all the controller available in this directory</i></li>
+        <li><strong>database: </strong><i>database configuration are available in this directory</i></li>
+        <li><strong>helper: </strong><i>helper file are available in this directory</i></li>
+        <li><strong>models: </strong><i>all the database related task are performed here, make model available in controller and use</i></li>
+        <li><strong>route: </strong><i>Route is the main key for the project without routing file can't be accessible</i></li>
+        <li><strong>storage: </strong><i>in this directory can store all the files</i></li>
+        <li><strong>views: </strong><i>all view file are available in this directory controller will return view from this directory</i></li>
+      </ul>
 
 ### How to access database
 
