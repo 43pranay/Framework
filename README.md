@@ -4,7 +4,7 @@ This Framework based on Object Oriented Concept
 Every files are categorized into different directory, following are the directory structure
 
 <h3><center>Directory Structure 👇</center></h3>
-      /app
+   
       <ul>
         <li><strong>config: </strong><i>can set base url in config.php also there is helper file configuration</i></li>
         <li><strong>controller: </strong><i>All the view are return from controllers folder, all the controller available in this directory</i></li>
@@ -15,9 +15,7 @@ Every files are categorized into different directory, following are the director
         <li><strong>storage: </strong><i>in this directory can store all the files</i></li>
         <li><strong>views: </strong><i>all view file are available in this directory controller will return view from this directory</i></li>
       </ul>
-      ### C\#
-### C# #
-### #test
+   
 <div>
       
   <span>
