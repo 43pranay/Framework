@@ -4,7 +4,7 @@ This Framework based on Object Oriented Concept
 Every files are categorized into different directory, following are the directory structure
 
 <h3><center>Directory Structure 👇</center></h3>
-   
+      <strong>/app</strong>
       <ul>
         <li><strong>config: </strong><i>can set base url in config.php also there is helper file configuration</i></li>
         <li><strong>controller: </strong><i>All the view are return from controllers folder, all the controller available in this directory</i></li>
@@ -16,7 +16,7 @@ Every files are categorized into different directory, following are the director
         <li><strong>views: </strong><i>all view file are available in this directory controller will return view from this directory</i></li>
       </ul>
    
-<div>
+<span>
       
   <span>
     <span style="background: black;color: white;padding: 3px 14px;">&#x23;</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>OOP CONCEPT</b></span>
@@ -39,7 +39,7 @@ Every files are categorized into different directory, following are the director
   <span>
     <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>MIT LICENSED</b></span>
   </span>
-</div>      
+</span>      
 ### How to access database
 
   To access database in the controller use the following file in controller at the top
