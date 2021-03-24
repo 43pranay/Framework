@@ -18,7 +18,7 @@ Every files are categorized into different directory, following are the director
 
 <div>
   <span>
-    <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>OOP CONCEPT</b></span>
+    <span style="background: black;color: white;padding: 3px 14px;">&#x23;</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>OOP CONCEPT</b></span>
   </span>
   <span>
     <span style="background: black;color: white;padding: 3px 14px;">#</span><span style="background: #12ae1b;color: white;padding: 3px 14px;"><b>EASY TO USE</b></span>
