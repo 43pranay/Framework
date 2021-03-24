@@ -3,12 +3,18 @@
 This Framework based on Object Oriented Concept
 Every files are categorized into different directory, following are the directory structure
 <p align="center">
+  
   <b>Some Links:</b><br>
   <a href="#">Link 1</a> |
   <a href="#">Link 2</a> |
   <a href="#">Link 3</a>
   <br><br>
 </p>
+<ul>
+  <li>1 <strong>test</strong></li>
+  <li>1 <strong>test</strong></li>
+  <li>1 <strong>test</strong></li>
+  </ul>
       /app
         *** config     - can set base url in config.php also there is helper file configuration
         *** controller - All the view are return from controllers folder, all the controller available in this directory
