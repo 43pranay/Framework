@@ -1,4 +1,5 @@
 <?php
+//Load Controller File
 function custom_autoloader($class) {
   $file_path = CONTROLLER_PATH.'/'.$class.'.php';
   if (file_exists($file_path)) {
@@ -7,6 +8,18 @@ function custom_autoloader($class) {
 }
 
 spl_autoload_register('custom_autoloader');
+
+
+//Load MOdal File
+function custom__modal_autoloader($class) {
+  $file_path = MODELS_PATH.'/'.$class.'.php';
+  if (file_exists($file_path)) {
+    include $file_path;
+  }
+}
+
+spl_autoload_register('custom__modal_autoloader');
+
 
 /**
  * load all classes
